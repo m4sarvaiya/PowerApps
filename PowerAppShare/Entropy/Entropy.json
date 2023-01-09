@@ -1,71 +1,25 @@
 {
   "ComponentIndexes": {},
   "ControlUniqueGuids": {},
-  "ControlUniqueIds": {
-    "App": 1,
-    "Canvas1": 6,
-    "DataCard1": 7,
-    "LblAppName1": 5,
-    "RectQuickActionBar1": 4,
-    "Screen1": 3
-  },
+  "ControlUniqueIds": {},
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "01/09/2023 12:37:39",
   "IsLegacyComponentAllowGlobalScopeCase": false,
-  "LocalConnectionIDReferences": {
-    "48a5f549-5052-4dc9-9171-19ff25f969c7": "\"/providers/microsoft.powerapps/apis/shared_autodeskforgedataexc/connections/312556ee46a7491089231019abf1bb0c\""
-  },
+  "LocalConnectionIDReferences": {},
   "LocalDatabaseReferencesAsEmpty": false,
   "LocalResourceFileNames": {},
   "LocalResourceRootPaths": {},
   "OrderComponentMetadata": {},
   "OrderComponentTemplate": {},
-  "OrderDataSource": {
-    "AutodeskForgeDataExchange": 0,
-    "CustomGallerySample": 1
-  },
+  "OrderDataSource": {},
   "OrderGroupControls": {},
   "OrderPcfTemplate": {},
   "OrderTemplate": {},
-  "OrderXMLTemplate": {
-    "fluidGrid": 2,
-    "label": 1,
-    "rectangle": 0
-  },
-  "OverridablePropertiesEntry": {
-    "App": {},
-    "Canvas1": {},
-    "DataCard1": {},
-    "LblAppName1": {},
-    "RectQuickActionBar1": {},
-    "Screen1": {}
-  },
+  "OrderXMLTemplate": {},
+  "OverridablePropertiesEntry": {},
   "PCFDynamicSchemaForIRRetrievalEntry": {},
-  "PublishOrderIndices": {
-    "App": 0,
-    "Canvas1": 2,
-    "DataCard1": 3,
-    "LblAppName1": 1,
-    "RectQuickActionBar1": 0,
-    "Screen1": 0
-  },
-  "ResourcesJsonIndices": {
-    "Image-SampleImage": 0
-  },
+  "PublishOrderIndices": {},
+  "ResourcesJsonIndices": {},
   "RuleScreenIdWithoutScreen": {},
-  "TemplateVersions": {},
-  "VolatileProperties": {
-    "AnalysisLoadTime": 0.1056488,
-    "ControlCount": {
-      "dataCard": 1,
-      "fluidGrid": 1,
-      "label": 1,
-      "rectangle": 1,
-      "screen": 1
-    },
-    "DeserializationLoadTime": 0.5486573,
-    "ErrorCount": 0
-  },
-  "WasLocalDatabaseReferencesEmpty": true
+  "TemplateVersions": {}
 }
