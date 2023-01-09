@@ -8,7 +8,7 @@
     LblAppName1 As label:
         Align: =Align.Center
         Height: =88
-        Text: ="Test List"
+        Text: ="Test List1"
         Width: =Parent.Width
         ZIndex: =2
 

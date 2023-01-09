@@ -11,19 +11,16 @@
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "01/09/2023 12:13:56",
+  "HeaderLastSavedDateTimeUTC": "01/09/2023 12:37:21",
   "IsLegacyComponentAllowGlobalScopeCase": false,
-  "LocalConnectionIDReferences": {
-    "48a5f549-5052-4dc9-9171-19ff25f969c7": "\"/providers/microsoft.powerapps/apis/shared_autodeskforgedataexc/connections/312556ee46a7491089231019abf1bb0c\""
-  },
+  "LocalConnectionIDReferences": {},
   "LocalDatabaseReferencesAsEmpty": false,
   "LocalResourceFileNames": {},
   "LocalResourceRootPaths": {},
   "OrderComponentMetadata": {},
   "OrderComponentTemplate": {},
   "OrderDataSource": {
-    "AutodeskForgeDataExchange": 0,
-    "CustomGallerySample": 1
+    "CustomGallerySample": 0
   },
   "OrderGroupControls": {},
   "OrderPcfTemplate": {},
@@ -56,7 +53,7 @@
   "RuleScreenIdWithoutScreen": {},
   "TemplateVersions": {},
   "VolatileProperties": {
-    "AnalysisLoadTime": 0.1056488,
+    "AnalysisLoadTime": 0.0807887,
     "ControlCount": {
       "dataCard": 1,
       "fluidGrid": 1,
@@ -64,7 +61,7 @@
       "rectangle": 1,
       "screen": 1
     },
-    "DeserializationLoadTime": 0.5486573,
+    "DeserializationLoadTime": 0.6915948,
     "ErrorCount": 0
   },
   "WasLocalDatabaseReferencesEmpty": true
