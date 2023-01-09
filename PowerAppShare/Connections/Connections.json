@@ -1,0 +1,22 @@
+{
+  "48a5f549-5052-4dc9-9171-19ff25f969c7": {
+    "connectionParameters": {
+      "sku": "Enterprise"
+    },
+    "connectionRef": {
+      "apiTier": "Premium",
+      "displayName": "Autodesk Forge Data Exchange",
+      "iconUri": "https://connectoricons-prod.azureedge.net/u/v-sriyen/Oct4thTrain/1.0.1604.3058/autodeskforgedataexc/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_autodeskforgedataexc",
+      "parameterHints": {},
+      "parameterHintsV2": {}
+    },
+    "datasets": {},
+    "dataSources": [
+      "AutodeskForgeDataExchange"
+    ],
+    "dependencies": {},
+    "dependents": [],
+    "id": "48a5f549-5052-4dc9-9171-19ff25f969c7"
+  }
+}

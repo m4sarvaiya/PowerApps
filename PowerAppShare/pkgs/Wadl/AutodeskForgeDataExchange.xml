@@ -1,0 +1,192 @@
+<application xmlns:xml="http://www.w3.org/XML/1998/namespace" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:service="https://asia-001.azure-apim.net/apim/autodeskforgedataexc" xmlns:siena="http://schemas.microsoft.com/MicrosoftProjectSiena/WADL/2014/11" siena:serviceId="AutodeskForgeDataExchange" xmlns="http://wadl.dev.java.net/2009/02">
+  <doc title="Autodesk Forge Data Exchange">Unleash your productivity and streamline collaboration by connecting design and make data between Revit and the tools of your choice.</doc>
+  <grammars>
+    <jsonTypes targetNamespace="https://asia-001.azure-apim.net/apim/autodeskforgedataexc" xmlns="http://schemas.microsoft.com/MicrosoftProjectSiena/WADL/2014/11">
+      <string name="ParametersResponse_cursor_def" />
+      <string name="ParametersResponse_nextLink_def" />
+      <object name="ParametersResponse">
+        <property name="cursor" type="string" />
+        <property name="nextLink" type="string" />
+      </object>
+      <string name="FolderContents_data_def_items_def_id_def" />
+      <string name="FolderContents_data_def_items_def_type_def" />
+      <string name="FolderContents_data_def_items_def_attributes_def_displayName_def" />
+      <string name="FolderContents_data_def_items_def_attributes_def_name_def" />
+      <object name="FolderContents_data_def_items_def_attributes_def">
+        <property name="displayName" type="string" />
+        <property name="name" type="string" />
+      </object>
+      <object name="FolderContents_data_def_items_def">
+        <property name="id" type="string" />
+        <property name="type" type="string" />
+        <property name="attributes" typeRef="FolderContents_data_def_items_def_attributes_def" />
+      </object>
+      <array typeRef="FolderContents_data_def_items_def" name="FolderContents_data_def" />
+      <object name="FolderContents">
+        <property name="data" typeRef="FolderContents_data_def" />
+      </object>
+      <string name="FolderMetadata_value_def_items_def_type_def" />
+      <boolean name="FolderMetadata_value_def_items_def_isFolder_def" />
+      <string name="FolderMetadata_value_def_items_def_id_def" />
+      <string name="FolderMetadata_value_def_items_def_displayName_def" />
+      <object name="FolderMetadata_value_def_items_def">
+        <property name="type" type="string" />
+        <property name="isFolder" type="boolean" />
+        <property name="id" type="string" />
+        <property name="displayName" type="string" />
+      </object>
+      <array typeRef="FolderMetadata_value_def_items_def" name="FolderMetadata_value_def" />
+      <object name="FolderMetadata">
+        <property name="value" typeRef="FolderMetadata_value_def" />
+      </object>
+      <string name="ExchangeData_hubName_def" />
+      <string name="ExchangeData_projectName_def" />
+      <string name="ExchangeData_folderName_def" />
+      <string name="ExchangeData_collectionId_def" />
+      <string name="ExchangeData_id_def" />
+      <string name="ExchangeData_version_def" />
+      <string name="ExchangeData_sourceVersionUrn_def" />
+      <string name="ExchangeData_hostingProviderName_def" />
+      <string name="ExchangeData_exchangeFileProjectUrn_def" />
+      <string name="ExchangeData_baseSourceVersionUrn_def" />
+      <string name="ExchangeData_exchangeFileFolderUrn_def" />
+      <string name="ExchangeData_exchangeFileName_def" />
+      <string name="ExchangeData_exchangeFileUrn_def" />
+      <string name="ExchangeData_exchangeFileVersionUrn_def" />
+      <string name="ExchangeData_createdBy_def" />
+      <string name="ExchangeData_created_def" />
+      <string name="ExchangeData_lastModifiedBy_def" />
+      <string name="ExchangeData_lastModified_def" />
+      <object name="ExchangeData">
+        <property name="hubName" type="string" />
+        <property name="projectName" type="string" />
+        <property name="folderName" type="string" />
+        <property name="collectionId" type="string" />
+        <property name="id" type="string" />
+        <property name="version" type="string" />
+        <property name="sourceVersionUrn" type="string" />
+        <property name="hostingProviderName" type="string" />
+        <property name="exchangeFileProjectUrn" type="string" />
+        <property name="baseSourceVersionUrn" type="string" />
+        <property name="exchangeFileFolderUrn" type="string" />
+        <property name="exchangeFileName" type="string" />
+        <property name="exchangeFileUrn" type="string" />
+        <property name="exchangeFileVersionUrn" type="string" />
+        <property name="createdBy" type="string" />
+        <property name="created" type="string" />
+        <property name="lastModifiedBy" type="string" />
+        <property name="lastModified" type="string" />
+      </object>
+      <string name="WebhookDeleteResponse_content_def" />
+      <string name="WebhookDeleteResponse_duration_def" />
+      <string name="WebhookDeleteResponse_message_def" />
+      <integer name="WebhookDeleteResponse_responseCode_def" />
+      <object name="WebhookDeleteResponse">
+        <property name="content" type="string" />
+        <property name="duration" type="string" />
+        <property name="message" type="string" />
+        <property name="responseCode" type="integer" />
+      </object>
+      <string name="ExchangeAdded_payload_def_modifiedTime_def" />
+      <string name="ExchangeAdded_payload_def_name_def" />
+      <string name="ExchangeAdded_payload_def_lineageUrn_def" />
+      <string name="ExchangeAdded_payload_def_context_def_lineage_def_createUserName_def" />
+      <string name="ExchangeAdded_payload_def_context_def_lineage_def_lastModifiedUserName_def" />
+      <object name="ExchangeAdded_payload_def_context_def_lineage_def">
+        <property name="createUserName" type="string" />
+        <property name="lastModifiedUserName" type="string" />
+      </object>
+      <object name="ExchangeAdded_payload_def_context_def">
+        <property name="lineage" typeRef="ExchangeAdded_payload_def_context_def_lineage_def" />
+      </object>
+      <object name="ExchangeAdded_payload_def">
+        <property name="modifiedTime" type="string" />
+        <property name="name" type="string" />
+        <property name="lineageUrn" type="string" />
+        <property name="context" typeRef="ExchangeAdded_payload_def_context_def" />
+      </object>
+      <object name="ExchangeAdded">
+        <property name="payload" typeRef="ExchangeAdded_payload_def" />
+      </object>
+      <string name="VersionAdded_hook_def_hookAttribute_def_fileId_def" />
+      <object name="VersionAdded_hook_def_hookAttribute_def">
+        <property name="fileId" type="string" />
+      </object>
+      <object name="VersionAdded_hook_def">
+        <property name="hookAttribute" typeRef="VersionAdded_hook_def_hookAttribute_def" />
+      </object>
+      <string name="VersionAdded_payload_def_modifiedTime_def" />
+      <string name="VersionAdded_payload_def_name_def" />
+      <string name="VersionAdded_payload_def_modifiedBy_def" />
+      <object name="VersionAdded_payload_def">
+        <property name="modifiedTime" type="string" />
+        <property name="name" type="string" />
+        <property name="modifiedBy" type="string" />
+      </object>
+      <object name="VersionAdded">
+        <property name="hook" typeRef="VersionAdded_hook_def" />
+        <property name="payload" typeRef="VersionAdded_payload_def" />
+      </object>
+    </jsonTypes>
+  </grammars>
+  <resources siena:authenticationProviderHref="#PowerAppAuth" base="https://asia-001.azure-apim.net/apim/autodeskforgedataexc">
+    <resource path="/{connectionId}/exchange/v1/collections/assets:get-closure">
+      <param style="template" name="connectionId" type="xs:string" required="true" />
+      <method siena:requiresAuthentication="true" name="GET" id="GetAssetInfo" actionName="GetAssetInfo" visibility="important" siena:isDeprecated="false" siena:isDynamicSchema="true">
+        <doc title="Get details of a Data Exchange property&#xA;This operation gets details of a property associated with a Data Exchange." />
+        <request>
+          <param style="query" name="fileId" type="xs:string" required="true">
+            <doc title="Select the Data Exchange in Autodesk Docs" />
+          </param>
+          <param style="query" name="assetid" type="xs:string" required="true">
+            <doc title="Property identifier for a property within the selected Data Exchange" />
+          </param>
+        </request>
+      </method>
+    </resource>
+    <resource path="/{connectionId}/exchange/v1/exchanges">
+      <param style="template" name="connectionId" type="xs:string" required="true" />
+      <method siena:requiresAuthentication="true" name="GET" id="GetExchanges" actionName="GetExchanges" visibility="important" siena:isDeprecated="false">
+        <doc title="Get details about a Data Exchange&#xA;This operation gets details about a Data Exchange such as its Autodesk Docs project name, author of the file, and the last modified time, etc." />
+        <request>
+          <param style="query" name="fileId" type="xs:string" required="true">
+            <doc title="Select the Data Exchange in Autodesk Docs" />
+          </param>
+        </request>
+        <response>
+          <representation mediaType="application/json" element="service:ExchangeData" />
+        </response>
+      </method>
+    </resource>
+    <resource path="/{connectionId}/fake/assets:sync">
+      <param style="template" name="connectionId" type="xs:string" required="true" />
+      <method siena:requiresAuthentication="true" name="GET" id="GetAllPropertiesCodeBehind" actionName="GetAllPropertiesCodeBehind" visibility="important" siena:isDeprecated="false" siena:isDynamicSchema="true">
+        <doc title="Get properties of a Data Exchange&#xA;This operation gets the properties of a Data Exchange. You can specify to get all the properties or only the latest properties." />
+        <request>
+          <param style="query" name="fileId" type="xs:string" required="true">
+            <doc title="Select the Data Exchange in Autodesk Docs" />
+          </param>
+          <param style="query" name="getlatest" type="xs:string" required="true" default="all">
+            <doc title="Get all or latest properties for the selected Data Exchange" />
+            <option value="all" />
+            <option value="latest" />
+          </param>
+          <param style="query" name="cursor" type="xs:string">
+            <doc title="A pagination token for the next page of properties" />
+          </param>
+        </request>
+        <response>
+          <representation mediaType="application/json" element="service:ParametersResponse" />
+        </response>
+      </method>
+    </resource>
+  </resources>
+  <authenticationProviders xmlns="http://schemas.microsoft.com/MicrosoftProjectSiena/WADL/2014/11">
+    <connectionProvider id="PowerAppAuth" siena:connectionProviderId="shared_autodeskforgedataexc" />
+  </authenticationProviders>
+  <template xmlns="http://schemas.microsoft.com/MicrosoftProjectSiena/WADL/2014/11">
+    <variable name="connectionId">
+      <modifyParams style="template" name="connectionId" attribute="fixed" />
+    </variable>
+  </template>
+</application>
